@@ -1,0 +1,48 @@
+.container{
+    width: 575px;
+    height: 825px;
+    background-color: gainsboro;
+    padding-left: 30px;
+}
+
+    #height,#weight{
+        width: 150px;
+        height: 25px;
+    }
+
+    #weight-guide{
+        margin-left: 75px;
+        margin-top: 25px;
+    }
+
+    #result{
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top: 20px;
+        color: rgb(241, 241, 241);
+    }
+
+    button{
+        width: 150px;
+        height: 35px;
+        margin-left: 90px;
+        margin-top: 25px;
+        background-color: #fff;
+        padding: 1px 30px;
+        border-radius: 10px;
+        color: #212121;
+        text-decoration: none;
+        border: 2px solid #212121;
+        font-size: 25px;
+    }
+
+    button:hover{
+        color: #000000;
+        border: 1.5px solid rgb(0, 0, 0);
+        font-size: 20px;
+    }
+
+    h1{
+        padding-left: 15px;
+        padding-top: 25px;
+    }
