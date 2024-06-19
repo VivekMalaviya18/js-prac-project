@@ -1,8 +1,9 @@
 .container{
     width: 575px;
     height: 825px;
-    background-color: gainsboro;
+    background-color: rgb(230, 230, 230);
     padding-left: 30px;
+    border-radius: 15px;
 }
 
     #height,#weight{
@@ -16,10 +17,10 @@
     }
 
     #result{
-        font-size: 30px;
+        font-size: 35px;
         margin-left: 90px;
         margin-top: 20px;
-        color: rgb(241, 241, 241);
+        color: rgb(0, 0, 0);
     }
 
     button{
@@ -32,14 +33,15 @@
         border-radius: 10px;
         color: #212121;
         text-decoration: none;
-        border: 2px solid #212121;
-        font-size: 25px;
+        border: 1px solid #212121;
+        font-size: 15px;
+        transition: font-size 0.3s, border-width 0.3s, color 0.3s;
     }
 
     button:hover{
         color: #000000;
-        border: 1.5px solid rgb(0, 0, 0);
-        font-size: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        font-size: 18px;
     }
 
     h1{
